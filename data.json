@@ -1,0 +1,62 @@
+{"data":
+[{
+"id":1,
+"name":"2006 BMW 325i",
+"category":"auto",
+"imageUrl":"https://tinyurl.com/2eyzws4v",
+"price":55000,
+"dateFirstAdded":"04-22-2021",
+"location": "Gilford, NH",
+"condition": "New",
+"description": "This is a sport car..",
+"seller": "Dipesh Shrestha"
+},
+{
+"id":2,
+"name":"Loveseat Sofa",
+"category":"furniture",
+"imageUrl":"https://tinyurl.com/yckyj2xz",
+"price":1200,
+"dateFirstAdded":"04-22-2022",
+"location": "West Haven, CT",
+"condition": "Used",
+"description": "Comfortable sofa for daily use.",
+"seller": "Travis Mills"
+},
+{
+"id":3,
+"name":"Twin Bed with Matress",
+"category":"furniture",
+"imageUrl":"https://tinyurl.com/2ak9vfku",
+"price":1950,
+"dateFirstAdded":"01-17-2019",
+"location": "New York, NY",
+"condition": "Used",
+"description": "High quality build material with comfortable matress.",
+"seller": "Harihar Thapa"
+},
+{
+"id":4,
+"name":"Pool Table",
+"category":"Games",
+"imageUrl":"https://tinyurl.com/edn3v87r",
+"price":2300,
+"dateFirstAdded":"11-29-2017",
+"location": "Hamden, CT",
+"condition": "Used",
+"description": "Minor Scratches but in good condition.",
+"seller": "Deepen Rana"
+},
+{
+"id":5,
+"name":"Bedroom Dresser",
+"category":"Furniture",
+"imageUrl":"https://tinyurl.com/yc2tyu9b",
+"price":900,
+"dateFirstAdded":"05-12-2022",
+"location": "Seattle, WA",
+"condition": "New",
+"description": "Brand new dresser with mirror looks beautiful in bedroom. Bought few months ago but had to sell it in emergency because need to shift to different location.",
+"seller": "Sujan Bhusal"
+}
+]}
