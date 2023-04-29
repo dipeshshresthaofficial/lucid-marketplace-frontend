@@ -17,5 +17,8 @@ export default{
 <style scoped>
     #header{
         padding: 25px 0;
+        /* position: fixed;
+        top:0; */
+        /* height: 100px; */
     }
 </style>

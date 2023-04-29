@@ -1,9 +1,12 @@
 <template>
-    <div id="items-cont">
-        <div v-for="(item,index) in data" v-bind:key="index">
-            <ItemCard :item="item"/>
+    <div>
+
+        <div id="items-cont">
+            <div v-for="(item,index) in filteredProducts" v-bind:key="index">
+                <ItemCard :item="item"/>
+            </div>
+            
         </div>
-        
     </div>
 </template>
 
@@ -16,26 +19,10 @@ export default{
     components: {
         ItemCard,
     },
-    props: [],
+    props: ['filteredProducts'],
     data(){
         return{
-            data: []
         }
-    },
-    methods:{
-        async fetchMarketplaceData(){
-            
-            console.log("----------Fetching... ----------");
-            const res = await fetch('http://localhost:5959/api');
-            // console.log(res.json());
-            const data = await res.json();
-            console.log("----------fetch data----------");
-            console.log(data.data);
-            return data.data;
-        }
-    },
-    async created(){
-        this.data = await this.fetchMarketplaceData();
     }
 }
 </script>
