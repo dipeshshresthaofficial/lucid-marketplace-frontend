@@ -20,5 +20,7 @@ export default{
         /* position: fixed;
         top:0; */
         /* height: 100px; */
+        background-color: #d8d8d8;
+        color: #014746;
     }
 </style>

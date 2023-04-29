@@ -6,8 +6,8 @@
         <div class="item-detail">
             <span class="date-seller">{{ item.dateFirstAdded }} by {{ item.seller }} </span>
            
-            <p><b>${{ item.price }}</b></p>
-            <p v-text="item.name"></p>
+            <p class="price"><b>${{ item.price }}</b></p>
+            <p v-text="item.name" class="name"></p>
             <span class="location" v-text="item.location"></span>
         </div>
     </div>
@@ -67,5 +67,9 @@ export default{
 
 .location{
     margin: 10px 0;
+}
+
+.name, .price{
+    color: #014746;
 }
 </style>

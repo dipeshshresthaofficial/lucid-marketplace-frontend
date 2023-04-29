@@ -93,11 +93,8 @@ export default {
 
 .header{
   grid-area: header;
-  /* border: 1px solid green; */
   width: 100%;
   box-shadow: 4px 5px 30px -9px rgba(0, 0, 0, 0.64);
-  /* position: fixed; */
-  /* top: 0; */
   z-index: 999;
 }
 .itemcard{
@@ -106,17 +103,16 @@ export default {
 }
 .filterbar{
   grid-area: filterbar;
-  /* border: 1px solid blue; */
   box-shadow: 4px 5px 30px -9px rgba(0, 0, 0, 0.64);
-  /* position: fixed;
-  left: 0; */
+  max-width: 190px;
 }
 
 #container{
   display: grid;
   grid-template-areas: 
-  'header header header'
-  'filterbar itemcard itemcard';
+  'header header'
+  'filterbar itemcard';
+  grid-template-columns: 0.18fr 1fr;
   position: relative;
 }
 

@@ -32,5 +32,6 @@ export default{
     justify-content: space-evenly;
     height: 100vh;
     overflow-y: auto;
+    background-color: #f1efef;
 }
 </style>
