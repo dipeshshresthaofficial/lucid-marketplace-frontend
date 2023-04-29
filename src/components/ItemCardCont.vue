@@ -1,12 +1,10 @@
 <template>
-    <div>
 
-        <div id="items-cont">
-            <div v-for="(item,index) in filteredProducts" v-bind:key="index">
-                <ItemCard :item="item"/>
-            </div>
-            
+    <div id="items-cont">
+        <div v-for="(item,index) in filteredProducts" v-bind:key="index">
+            <ItemCard :item="item"/>
         </div>
+        
     </div>
 </template>
 
@@ -32,5 +30,7 @@ export default{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    height: 100vh;
+    overflow-y: auto;
 }
 </style>

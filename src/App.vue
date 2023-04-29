@@ -76,6 +76,7 @@ export default {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
+  overflow-y: hidden;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
