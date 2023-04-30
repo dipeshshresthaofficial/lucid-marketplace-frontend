@@ -30,8 +30,9 @@ export default{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 100vh;
-    overflow-y: auto;
     background-color: #f1efef;
+    
+  height: 88vh;
+  overflow-y: auto;
 }
 </style>

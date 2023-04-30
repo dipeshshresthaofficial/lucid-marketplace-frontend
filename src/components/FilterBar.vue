@@ -31,9 +31,11 @@ export default{
     methods:{
         clearCheckbox(){
             const checkboxes = document.querySelectorAll('[name="category"]');
-            checkboxes.forEach(checkbox=>(
-                checkbox.checked = false
-            ))
+            checkboxes.forEach(checkbox=>{
+                checkbox.checked = false;
+                this.selectedCategory=[];
+                this.$emit('onSelectedCategory',this.selectedCategory);
+        })
         }
     }
     
