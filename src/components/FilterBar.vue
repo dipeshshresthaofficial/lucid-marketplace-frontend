@@ -59,7 +59,16 @@ export default{
     border-radius: 5px;
     padding: 8px 10px;
     border: 1px solid grey;
+    border-color: #014746;
     color: #014746;
+    background-color: #d8d8d8;
+    
+    font-weight: bold;
+}
+
+#filterbar-cont input::placeholder{
+    color: #014746;
+    font-weight: bold;
 }
 
 #filterbar-cont button{
@@ -81,6 +90,12 @@ export default{
     /* padding: 0 50px; */
 }
 
+
+#checkbox-cont div input{
+    margin-right: 5px;
+    accent-color: #014746;
+}
+
 #categories-header{
     display: flex;
     justify-content: space-between;
@@ -95,10 +110,6 @@ export default{
 }
 #categories-header p{
     font-weight: 700;
-}
-#checkbox-cont div input{
-    margin-right: 5px;
-    accent-color: #014746;
 }
 
 </style>
